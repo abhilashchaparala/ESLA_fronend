@@ -14,6 +14,7 @@ const Home = () => {
     <div className="wrapper d-flex justify-content-center align-items-center">
       <div className="content">
         <h2>Paste the News to check if its Fake</h2>
+        <p>NOTE: This tool only works for last year U.S news</p>
         <textarea
           name="news"
           id="news"

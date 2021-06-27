@@ -1,5 +1,5 @@
 import axios from "axios";
-const api = "";
+const api = "http://0.0.0.0:8888";
 
 export const signUp = (name: string, mailid: string, password: string) => {
   return axios
