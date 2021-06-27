@@ -1,0 +1,24 @@
+.chatbot {
+  position: absolute;
+  width: 320px !important;
+  bottom: 0;
+  right: 10%;
+  transition: 0.8s;
+  * {
+    position: static;
+  }
+  .messages {
+    height: 35vh;
+    overflow-y: scroll;
+    .message {
+      width: fit-content;
+      border: 1px black;
+      .message-right {
+        margin-left: auto;
+      }
+    }
+  }
+  .send-message {
+    height: 5vh;
+  }
+}

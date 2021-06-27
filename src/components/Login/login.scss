@@ -1,0 +1,13 @@
+.login-holder {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  form {
+    width: 50vw;
+    min-width: 350px;
+    input {
+      width: 70% !important;
+    }
+  }
+}

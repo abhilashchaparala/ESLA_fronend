@@ -1,0 +1,33 @@
+.chatbot {
+  position: absolute;
+  width: 320px !important;
+  bottom: 0;
+  right: 10%;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.chatbot * {
+  position: static;
+}
+
+.chatbot .messages {
+  height: 35vh;
+  overflow-y: scroll;
+}
+
+.chatbot .messages .message {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 1px black;
+}
+
+.chatbot .messages .message .message-right {
+  margin-left: auto;
+}
+
+.chatbot .send-message {
+  height: 5vh;
+}
+/*# sourceMappingURL=chatbot.css.map */

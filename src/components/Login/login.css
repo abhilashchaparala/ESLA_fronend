@@ -1,0 +1,22 @@
+.login-holder {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-holder form {
+  width: 50vw;
+  min-width: 350px;
+}
+
+.login-holder form input {
+  width: 70% !important;
+}
+/*# sourceMappingURL=login.css.map */
