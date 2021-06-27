@@ -1,0 +1,24 @@
+.wrapper {
+  height: 100vh !important;
+  .content {
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.nav-link-active {
+  color: rgb(255, 255, 255) !important;
+}
+
+textarea {
+  background: none;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px 15px;
+  &:focus {
+    outline: none;
+  }
+}

@@ -15,3 +15,7 @@ export const logIn = async (mailid: string, password: string) => {
 export const sendMessage = async (question: string) => {
   return axios.post(`${api}/chatbot`, { question }).then((res) => res);
 };
+
+export const predict = (news: string) => {
+  return axios.post(`${api}/predict`, { news });
+};

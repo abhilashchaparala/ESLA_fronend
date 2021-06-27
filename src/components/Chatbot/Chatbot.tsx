@@ -14,21 +14,23 @@ const Chatbot = () => {
     const res: any = await sendMessage(text);
     setMessages([
       ...messages,
-      { user: false, text: res.response },
       { user: true, text },
+      { user: false, text: res.data.response },
     ]);
     setText("");
   };
 
   return (
     <Container className={`chatbot`}>
-      <Row>
-        <Col sm={10}>Chatbot</Col>
-        <Col sm={2}>
-          <i
-            onClick={() => setOpen(!open)}
-            className={`fa fa-arrow-${open ? "down" : "up"}`}
-          ></i>
+      <Row
+        onClick={() => setOpen(!open)}
+        style={{ cursor: "pointer", height: "5vh" }}
+      >
+        <Col sm={10} className="d-flex align-items-center">
+          Chatbot
+        </Col>
+        <Col sm={2} className="d-flex align-items-center">
+          <i className={`fa fa-arrow-${open ? "down" : "up"}`}></i>
         </Col>
       </Row>
       {open && (
@@ -39,7 +41,7 @@ const Chatbot = () => {
             ))}
           </div>
           <Row className="send-message">
-            <Col sm={10}>
+            <Col sm={9}>
               <FormControl
                 type="text"
                 value={text}
@@ -47,7 +49,9 @@ const Chatbot = () => {
               />
             </Col>
             <Col sm={2}>
-              <Button onClick={handleClick}>Send</Button>
+              <Button className="btn-sm" onClick={handleClick}>
+                Send
+              </Button>
             </Col>
           </Row>
         </>

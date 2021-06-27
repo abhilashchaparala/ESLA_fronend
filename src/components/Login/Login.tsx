@@ -32,7 +32,6 @@ const Login = () => {
       setShow(true);
       setToastBody("Your email or password is incorrect");
       setToastHeader("");
-    } else if (res.data === "1") {
     } else {
       setAuth(res.data);
       history.push("/home");
@@ -41,7 +40,7 @@ const Login = () => {
   const handleSignup = async (e: any) => {
     e.preventDefault();
     const res: any = await signUp(name, email, password);
-    if (res === "Done") {
+    if (res === "DOne") {
       setShow(true);
       setToastHeader("Your account has been created");
       setToastBody("Login with your credentials");
@@ -100,7 +99,9 @@ const Login = () => {
           </FormLabel>
         </FormGroup>
         <FormGroup className="pb-1">
-          <Button className="pb-1">{login ? "Login" : "Signup"}</Button>
+          <Button className="pb-1" onClick={login ? handleLogin : handleSignup}>
+            {login ? "Login" : "Signup"}
+          </Button>
         </FormGroup>
       </Form>
       <Toast onClose={() => setShow(false)} show={show}>
