@@ -12,7 +12,7 @@
 
 # Technologies Used
 
-### We didn't use any 3rd pary applications to build ESLA. We have build evarything from scratch.
+### We didn't use any 3rd pary applications to build ESLA. We have build everything from scratch.
 - React
 - Java Script
 - Machine Learning
