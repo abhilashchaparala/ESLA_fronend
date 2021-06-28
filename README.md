@@ -9,3 +9,15 @@
 4 - type <b>run npm</b> in terminal and run.
 
 5 - Yay, you can use ESLA now in your localhost.
+
+# Technologies Used
+
+### We didn't use any 3rd pary applications to build ESLA. We have build evarything from scratch.
+- React
+- Java Script
+- Machine Learning
+- Flask 
+- Python
+- CSS
+- HTML
+- MongoDB
