@@ -2,11 +2,11 @@
 
 1 - To run ESLA you must have both of the backend and frontend files in your local directory.
 
-2 - Go to ESLA backend and run <b><u>app.py</u></b> file using python interpreter.
+2 - Go to ESLA backend and run <b><i><u>app.py</i></u></b> file using python interpreter.
 
 3 - Then go to ESLA frontend directory and open it with terminal.
 
-4 - type <b></u>run npm</u></b> in terminal and run.
+4 - type <b><u><i>run npm</i></u></b> in terminal and run.
 
 5 - Yay, you can use ESLA now in your localhost.
 
