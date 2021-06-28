@@ -14,7 +14,8 @@
 
 #### We didn't use any 3rd pary applications to build ESLA. We have build everything from scratch.
 - React
-- Java Script
+- JavaScript
+- TypeScript
 - Machine Learning
 - Flask 
 - Python
