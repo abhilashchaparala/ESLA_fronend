@@ -22,6 +22,6 @@
 - HTML
 - MongoDB
 
-###Screenshots
+## Screenshot
 
 ![Screenshot 2021-06-28 at 11 49 34 AM](https://user-images.githubusercontent.com/66886332/123589944-9f111680-d807-11eb-8896-fab191462dc1.png)
